@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>All Products</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <!-- Shared Header -->
+    <header class="header">
+      <div class="logo">ShopX</div>
+
+      <nav class="nav">
+        <a href="index.html">Home</a>
+        <a href="products.html">Products</a>
+        <a href="cart.html">Cart</a>
+        <a href="login.html">Login</a>
+        <a href="register.html">Register</a>
+      </nav>
+
+      <div class="header-actions">
+        <input type="text" placeholder="Search products..." />
+        <a href="cart.html" class="cart-btn">🛒 Cart</a>
+      </div>
+    </header>
+    <hr />
+
+    <main class="container products">
+      <!-- Repeat this card format for more products -->
+      <div class="product-card">
+        <a href="product.html?product=1">
+          <img
+            src="https://th.bing.com/th/id/R.b2304d4680362a848a214e43a3c9e229?rik=AA97aV989MKmgw&pid=ImgRaw&r=0"
+            alt="Headphones"
+          />
+        </a>
+        <h3>Wireless Headphones</h3>
+        <p class="price">$120</p>
+      </div>
+
+      <div class="product-card">
+        <a href="product.html?product=2">
+          <img
+            src="https://images.pexels.com/photos/267394/pexels-photo-267394.jpeg"
+            alt="Sneakers"
+          />
+        </a>
+        <h3>Running Sneakers</h3>
+        <p class="price">$85</p>
+      </div>
+
+      <div class="product-card">
+        <a href="product.html?product=3">
+          <img
+            src="https://images.pexels.com/photos/298864/pexels-photo-298864.jpeg"
+            alt="Watch"
+          />
+        </a>
+        <h3>Smart Watch</h3>
+        <p class="price">$200</p>
+      </div>
+    </main>
+
+    <footer class="footer">
+      <p>© 2025 ShopX. All Rights Reserved.</p>
+    </footer>
+  </body>
+</html>
